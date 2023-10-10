@@ -1,0 +1,99 @@
+@import url(./mainStyle.css);
+
+.blog-card-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  grid-template-rows: auto;
+  gap: 5% 12%;
+  padding: 30px;
+}
+
+.blog-card {
+  width: 350px;
+  height: auto;
+  background-color: white;
+  border-radius: 12px;
+  border: 1px solid lightgray;
+  padding: 16px;
+  position: relative;
+}
+
+.blog-card a::before {
+  content: '';
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  bottom: 0px;
+  left: 0px;
+}
+
+.blog-card img {
+  max-width: 100%;
+  border-radius: 12px;
+  margin-bottom: 16px;
+}
+
+.blog-card h3 {
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 28px;
+}
+
+.blog-card .article-preview {
+  padding-top: 10px;
+  padding-bottom: 20px;
+}
+
+.badge {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin: 8px;
+  padding: 4px 10px;
+
+  width: 97px;
+  height: 28px;
+
+  background: rgba(168, 105, 147, 0.05);
+  border-radius: 6px;
+  font-family: 'Work Sans', sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 20px;
+  color: #a86993;
+}
+
+.blog-list .blog-card-container .blog-card .author-card {
+  display: flex;
+  gap: 12px;
+  align-items: stretch;
+}
+
+.blog-list .blog-card-container .blog-card .author-card img {
+  border-radius: 50%;
+  height: 36px;
+  width: 36px;
+}
+
+.blog-list .blog-card-container .blog-card .author-card .info-card {
+  display: flex;
+  flex-direction: column;
+}
+
+.blog-list .blog-card-container .blog-card .author-card .info-card h6 {
+  font-family: 'Work Sans', sans-serif;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 24px;
+  color: #97989f;
+  padding-right: 8px;
+}
+
+.blog-list .blog-card-container .blog-card .author-card .info-card p {
+  font-family: 'Work Sans', sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+  color: #97989f;
+}

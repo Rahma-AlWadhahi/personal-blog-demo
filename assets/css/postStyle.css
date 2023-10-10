@@ -1,0 +1,90 @@
+@import url(./mainStyle.css);
+
+.blog-post-card {
+  height: auto;
+  padding: 16px;
+  margin: 50px;
+}
+.blog-post-card h3 {
+  font-weight: 600;
+  font-size: 36px;
+}
+
+.blog-post-card img {
+  width: 100%;
+  aspect-ratio: 1/0.45;
+  border-radius: 12px;
+  margin-bottom: 16px;
+}
+.blog-post-card .author-card {
+  display: flex;
+  align-items: stretch;
+}
+.blog-post-card .author-card .info-card {
+  display: flex;
+  flex-direction: column;
+  margin: 10px;
+}
+.blog-post-card .author-card img {
+  border-radius: 50%;
+  height: 36px;
+  width: 36px;
+  margin: 15px;
+}
+.blog-post-card .author-card .info-card h6 {
+  font-family: 'Work Sans', sans-serif;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 24px;
+  color: #97989f;
+  padding-right: 8px;
+}
+
+.blog-post-card .author-card .info-card p {
+  font-family: 'Work Sans', sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+  color: #97989f;
+}
+
+hr.rounded {
+  border-top: 2px solid #bbb;
+  border-radius: 5px;
+  margin-top: 20px;
+  margin-bottom: 50px;
+}
+
+.blog-post-card article p {
+  text-align: justify;
+  font-size: 18px;
+  padding-top: 10px;
+  padding-bottom: 5px;
+}
+
+.blog-post-card article h3 {
+  text-align: justify;
+  font-weight: 500;
+  font-size: 24px;
+  padding-top: 50px;
+  padding-bottom: 5px;
+}
+
+.blog-post-card .social-sharing {
+  display: flex;
+  justify-content: flex-start;
+  margin-top: 4em;
+  margin-bottom: 1em;
+}
+.blog-post-card .social-sharing ul {
+  display: flex;
+  flex-direction: row;
+}
+
+.blog-post-card .social-sharing ul li {
+  list-style: none;
+  padding-inline: 30px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}

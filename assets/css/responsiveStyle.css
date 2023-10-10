@@ -1,0 +1,30 @@
+/* Small devices (up to 767px) */
+@media (max-width: 767px) {
+  /* CSS rules for small screens */
+  .nav-bar ul {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+  .nav-bar ul li {
+    list-style: none;
+    padding-inline: 30px;
+    padding-block: 15px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+  }
+  .nav-bar ul li:hover a {
+    text-decoration: none;
+  }
+}
+
+/* Medium devices (768px - 991px) */
+@media (min-width: 768px) and (max-width: 991px) {
+  /* CSS rules for medium screens */
+}
+
+/* Large devices (992px and above) */
+@media (min-width: 992px) {
+  /* CSS rules for large screens */
+}

@@ -1,0 +1,51 @@
+@import url(./mainStyle.css);
+
+footer {
+  background-color: #e8e8ea;
+  display: flex;
+  align-content: center;
+  align-items: center;
+  font-weight: 400;
+  font-size: medium;
+  padding: 2% 12% 2% 12%;
+  margin-top: 3%;
+}
+
+footer div {
+  padding-right: 60px;
+}
+footer div h5 {
+  font-weight: 600;
+  font-size: medium;
+}
+
+footer div ul {
+  list-style-type: none;
+}
+footer div ul li a {
+  text-decoration: none;
+  color: black;
+}
+
+footer .connect-social {
+  display: flex;
+  flex-direction: column;
+  justify-content: stretch;
+}
+footer .connect-social h5 {
+  font-weight: 600;
+  font-size: medium;
+}
+
+footer .connect-social ul {
+  display: flex;
+  flex-direction: row;
+  margin-top: 10px;
+  justify-content: space-between;
+}
+footer .connect-social ul li {
+  list-style-type: none;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
